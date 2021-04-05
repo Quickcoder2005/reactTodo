@@ -30,7 +30,7 @@ function AddTodo({addTodo}){
 
 	return (
 		<form onSubmit={handleSubmit}>
-			<input type="text" placeholder="Add todo..." onChange={handleChange}/>
+			<input type="text" placeholder="Add todo..." onChange={handleChange} value={todo}/>
 			<button type="submit"> Add </button>
 		</form>
 	);
